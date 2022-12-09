@@ -673,7 +673,7 @@ The `app.webhooks.*` APIs provide methods to receiving, verifying, and handling 
 Example: create a comment on new issues
 
 ```js
-import { createServer } from "node:http":
+import { createServer } from "node:http";
 import { App, createNodeMiddleware } from "octokit";
 
 const app = new App({
